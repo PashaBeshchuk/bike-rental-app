@@ -1,0 +1,60 @@
+.boxFreeBike, .boxBikeRental{
+    border: 1px solid #e2e2e2;
+    width: 60%;
+    height: 50px;
+    margin: 20px auto;
+    position: relative;
+    background-color:white;
+}
+.title_available {
+    margin: 10px 0px 0px 20%;
+}
+.title_rent {
+    margin: 15px 0px 0px 20%;
+}
+.boxBikeRental > div {
+    position: absolute;
+    top: 12px;
+    left:43px;
+}
+
+.boxBikeRental > button {
+    height: 32px;
+    width: 100px;
+    color: #b9c9e4;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+}
+
+.boxFreeBike > div {
+    position: absolute;
+    top: 12px;
+    left:43px;
+}
+
+.boxFreeBike > button {
+    height: 32px;
+    width: 100px;
+    color: #b9c9e4;
+    border-radius: 4px;
+    border: none;
+    position: absolute;
+}
+
+.boxFreeBike_rent {
+    background-color: #3750c7;
+    right: 18%;
+    top: 8px;
+}
+.boxFreeBike_delete {
+    background-color: #f2323f;
+    right: 4%;
+    top: 8px;
+}
+
+.cencelRental {
+    background-color: #f2323f;
+    right: 4%;
+    top: 8px;
+}

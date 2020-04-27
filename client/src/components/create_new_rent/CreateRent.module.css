@@ -1,0 +1,50 @@
+.create_rent {
+    width: 60%;
+    margin: auto
+}
+.create_rent__box__field {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+.create_rent__box {
+    border: 1px solid #dddce1;
+    border-radius: 4px;
+    background-color: #e9eaee;
+}
+
+.create_rent__box__field > div > input {
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    border: none;
+    width: 238px;
+    font-size: 16px;
+    text-indent: 15px
+}
+.create_rent__box__field > div > select {
+    height: 30px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    border: none;
+    width: 238px;
+}
+.create_rent__box__field > div > .field__price {
+    width: 146px;
+}
+   
+.create_rent__box__field > div > p {
+    margin: 6px 0px 6px 0px;
+}
+
+.create_rent__box__field > div > button {
+    height: 32px;
+    width: 100px;
+    border-radius: 4px;
+    border: none;
+    background: #23ba99;
+    color: #6cddc7;
+}
